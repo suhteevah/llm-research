@@ -1,0 +1,39 @@
+# secrets
+.env
+.env.*
+.secrets
+*.local
+*-key
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.credentials.json
+.claude/.credentials.json
+cookies*.json
+data.json
+VOXCLAW.md
+# os / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+# obsidian volatile + plugins (plugins reinstallable; data.json holds api keys)
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/plugins/
+.trash/
+# heavy artifacts
+node_modules/
+target/
+__pycache__/
+*.gguf
+*.safetensors
+*.bin
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.npy
+OpenCore-Legacy-Patcher/
